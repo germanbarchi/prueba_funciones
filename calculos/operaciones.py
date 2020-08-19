@@ -1,19 +1,20 @@
-def suma(x,y):
-
-	suma=x+y
-
-	return suma
-
-
-def resta(x,y):
-
-	resta=x-y
-
-	return resta 
-
 def result(x,y):
 
-	resta=resta(x,y)
-	suma=suma(x,y)
+  def suma(x,y):
 
-	return resta,suma
+	  suma=x+y
+
+	  return suma
+
+
+  def resta(x,y):
+
+	  resta=x-y
+
+	  return resta 
+
+
+resta_=resta(x,y)
+suma_=suma(x,y)
+
+return resta_,suma_
