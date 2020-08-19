@@ -1,6 +1,13 @@
-def result(x,y):
+def suma(x,y):
 
-	resta_=resta(x,y)
-	suma_=suma(x,y)
+	suma=x+y
 
-	return resta_,suma_
+	return suma
+
+def resta(x,y):
+
+	resta=x-y
+
+	return resta 
+
+
